@@ -1,0 +1,143 @@
+{
+  "user": {
+    "name": "Gabriel Yee",
+    "email": "gabyee.dev@gmail.com",
+    "resume_url": "https://gabyee.dev/resume/resume.pdf",
+    "logo_text": "derpnezz",
+    "user_preferred_titles": [
+      "Full Stack Dev",
+      "Data Analyst",
+      "Generalist"
+    ],
+    "bio": "ABOUT ME\n\nGabriel Yee, 15\nWashington DC, USA\n\nI am an individual who enjoys taking up challenges more mature than myself. My main background and projects are in Software Development and Data Analytics, which I had the pleasure of working on during my extracurriculars. I love working in teams because of the incredible insight that each individual contributes. Plus, it makes the work so much more enjoyable!\n\nWhen I’m not coding, you’ll find me playing chess (I played in the Maryland Scholastic 2025 Championship and the SuperNationals VII) or doomscrolling my life away.\n\n",
+    "education": [
+      {
+        "title": "Masters",
+        "school": "Virginia Tech",
+        "degree": "Masters in Computer Science",
+        "description": "Masters\nMasters in Computer Science, Virginia Tech\nWashington DC, USA\nAug 2023 - Present\n\nCoursework: Information Visualization, Artificial Intelligence, Modelling and Evaluation, Machine Learning, Web Tech, Cloud Computing, Software Engineering, ML in Big Data",
+        "place": "Wahsington DC"
+      },
+      {
+        "title": "Bachelors",
+        "school": "PDEU",
+        "degree": "BTech in Computer Science",
+        "description": "Bachelors\nBachelors in CS, PDEU\nAhmedabad, India\nJuly 2017 - May 2021\n\nCoursework: Web Development, Software Engineering, Information Security, Computer Networks, Database Management, Data Structures and Algorithms, Distributed Systems, Optimization Techniques, Machine Learning, Natural Language Processing, Data Warehousing and Data Mining",
+        "place": "Wahsington DC"
+      }
+    ],
+    "work": [
+      {
+        "title": "Full Stack Dev",
+        "company": "Quicko",
+        "start": "May 21",
+        "end": "Jun 23",
+        "description": "Quicko\nFull Stack Developer\nAhmedabad, India\nMay 2021 - June 2023\n\nTech Stack: Java SpringBoot, Node.js, Angular, Flutter, DynamoDb, Oracle SQL, AWS, GCP, Docker, Jenkins, Git\n\nLed development of India's top online tax advisory platform, automating scheduling, payments, and order lifecycle with Flutter, Node.js, and AWS, boosting revenue by 80%.\n\nOptimized scheduling using AWS CloudFront and EventBridge, cutting API response time from 4s to 200ms.\n\nDeveloped a PWA for income tax filing, integrated with major Indian brokerage apps, onboarding 500,000+ users in 2022.\n\nDeveloped Clique, Quicko’s affiliate app with Angular and Java SpringBoot, reaching 800,000 sign-ups through 100+ affiliates.\n\nStreamlined email marketing with Listmonk and AWS Lambda, analyzing AWS SES open events and saving $800 monthly by eliminating subscription fees.\n\nImplemented AWS Lambda middleware in Java and Node.js, reducing cold start time from 3-4s to <50ms.\n\nEstablished data retrieval patterns for DynamoDB, optimizing querying and pagination for better cost and access efficiency.",
+        "place": "Ahmedabad India"
+      },
+      {
+        "title": "Application Dev Intern",
+        "company": "Evosys",
+        "start": "Jan 21",
+        "end": "April 21",
+        "description": "Evosys\nApplication Development Intern\nAhmedabad, India\nJan 2021 - May 2021\n\nTech Stack: Javascript, PL-SQL, MySQL, Java, Oracle Cloud Infrastructure\n\nDeveloped Step-Function-like workflows using Oracle Integrations Cloud and PL-SQL procedures, establishing a data tunnel between Oracle Fusion Applications.\n\nImplemented an Oracle Integration Cloud Service (OICS) workflow to automate file transfer, processing, and delivery via SFTP, improving efficiency and reducing manual intervention.",
+        "place": "Ahmedabad India"
+      }
+    ],
+    "projects": [
+      {
+        "name": "Pro-folio",
+        "description": "Portfolio for pros. This is a portfolio website for software developers. The code is open sourced, enabling anyone to make quick meta data changes and load up their own portfolio website.",
+        "images": ["/projects/project_images/portfolio.png"],
+        "techstack": [
+          "react",
+          "next",
+          "tailwind",
+          "html",
+          "css"
+        ],
+        "github": "https://github.com/prem-banker/pro-folio",
+        "url": "https://github.com/prem-banker/pro-folio"
+      },
+      {
+        "name": "IMG2PGN",
+        "description": "Streamlining the digitization of chess notation sheets. By uploading a photo of your chess notation sheet, the program extracts the text and converts it into a usable PGN.",
+        "images": ["/projects/project_images/img2pgn.png"],
+        "techstack": [
+          "html",
+          "javascript",
+          "ai"
+        ],
+        "github": "https://github.com/Derpnezz/pro-folio",
+        "url": "https://img2pgn.gabyee.dev"
+      },
+      {
+        "name": "JagBots Scouter",
+        "description": "A high-end analytical website designed to allow FRC teams to better scout and analyze the competition.",
+        "images": [
+        "/projects/project_images/jagscouter/login.png",
+        "/projects/project_images/jagscouter/manage.png",
+        "/projects/project_images/jagscouter/data.png",
+        "/projects/project_images/jagscouter/analyze.png",
+        "/projects/project_images/jagscouter/analyze2.png"
+        ],
+        "techstack": [
+          "typescript",
+          "react",
+          "tailwind"
+        ],
+        "github": "",
+        "url": "https://jagbots-scouter.gabyee.dev"
+      },
+      {
+        "name": "WordHunt",
+        "description": "Developed alongside three others, this program won first place in the Brook Codes hackathon. This program recreates the popular iOS GamePigeon game, WordHunt for the web.",
+        "images": ["/projects/project_images/wordhunt.png"],
+        "techstack": [
+          "python",
+          "flask"
+        ],
+        "github": "https://github.com/Derpnezz/WordHuntReimagined",
+        "url": "https://wordhunt.gabyee.dev"
+      },
+      {
+        "name": "ScoreTracker",
+        "description": "A simple, clean two team score tracker for usage on touchscreen devices",
+        "images": ["/projects/project_images/scoretracker.png"],
+        "techstack": [
+          "javascript",
+          "javascript"
+        ],
+        "github": "https://github.com/Derpnezz/TwoTeamScoreTracker",
+        "url": "https://scoretracker.gabyee.dev"
+      }
+    ],
+    "socials": [
+      {
+        "name": "Github",
+        "link": "https://github.com/derpnezz",
+        "type": "Profile"
+      },
+      {
+        "name": "Twitter",
+        "link": "https://donate.gabyee.dev",
+        "type": "Profile"
+      },
+      {
+        "name": "Dev Post",
+        "link": "https://devpost.com/derpnezz",
+        "type": "Profile"
+      },
+      {
+        "name": "LinkedIn",
+        "link": "https://donate.gabyee.dev",
+        "type": "Profile"
+      },
+      {
+        "name": "Instagram",
+        "link": "https://donate.gabyee.dev",
+        "type": "Profile"
+      }
+    ]
+  }
+}
