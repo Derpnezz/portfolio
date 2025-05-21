@@ -9,7 +9,7 @@
       "Data Analyst",
       "Generalist"
     ],
-    "bio": "ABOUT ME\n\nGabriel Yee, 15\nWashington DC, USA\n\nI am an individual who enjoys taking up challenges more mature than myself. My main background and projects are in Software Development and Data Analytics, which I had the pleasure of working on during my extracurriculars. I love working in teams because of the incredible insight that each individual contributes. Plus, it makes the work so much more enjoyable!\n\nWhen I’m not coding, you’ll find me playing chess (I played in the Maryland Scholastic 2025 Championship and the SuperNationals VII) or doomscrolling my life away.\n\n",
+    "bio": "ABOUT ME\n\nGabriel Yee, 15\nWashington DC, USA\n\nI am an individual who enjoys taking up challenges more mature than myself. My main background and projects are in Software Development and Data Analytics, which I had the pleasure of working on during my extracurriculars. I love working in teams because of the incredible insight that each individual contributes. Plus, it makes the work so much more enjoyable!\n\nWhen I’m not coding, you’ll find me playing chess (I played in the Maryland Scholastic 2025 Championship and the SuperNationals VII) or doomscrolling my life away.\n",
     "education": [
       {
         "title": "Masters",
@@ -46,9 +46,9 @@
     ],
     "projects": [
       {
-        "name": "Pro-folio",
-        "description": "Portfolio for pros. This is a portfolio website for software developers. The code is open sourced, enabling anyone to make quick meta data changes and load up their own portfolio website.",
-        "images": ["/projects/project_images/portfolio.png"],
+        "name": "Portfolio",
+        "description": "A portfolio website for software developers. The code is open sourced, enabling anyone to make quick meta data changes and load up their own portfolio website.",
+        "images": ["/projects/project_images/portfolioUP.png"],
         "techstack": [
           "react",
           "next",
@@ -56,8 +56,8 @@
           "html",
           "css"
         ],
-        "github": "https://github.com/prem-banker/pro-folio",
-        "url": "https://github.com/prem-banker/pro-folio"
+        "github": "https://github.com/Derpnezz/portfolio",
+        "url": "https://github.com/Derpnezz/portfolio"
       },
       {
         "name": "IMG2PGN",
