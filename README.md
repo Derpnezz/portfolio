@@ -15,8 +15,8 @@ To set up the portfolio on your local machine, follow these simple steps:
 1. **Clone the Repository:**
 
    ```bash
-   git clone https://github.com/prem-banker/pro-folio.git
-   cd pro-folio
+   git clone https://github.com/Derpnezz/portfolio.git
+   cd portfolio
    ```
 
 2) **Install deps:**
@@ -43,7 +43,8 @@ To set up the portfolio on your local machine, follow these simple steps:
 
 ## Deployment
 
-Deploy the website on Vercel or any other hosting service by following their deployment process. For Vercel, simply push your repository to GitHub, link your repo to Vercel, and the platform will handle the rest.
+To deploy, I used [Vercel](https://vercel.com). <br>
+Simply push your repository to GitHub, link your repo to Vercel, and the platform will handle the rest.
 
 ## Future enhancements
 
@@ -51,8 +52,7 @@ Deploy the website on Vercel or any other hosting service by following their dep
 - Flexible Design: Providing more options for customization, including themes and layouts.
 - Additional Integrations: Potentially adding other third-party services for analytics, additional forms, or content management
 
-## Contributing
+## Contributions
 
-I Love that! Feel free to fork the repo and submit pull requests. For major changes, please open an issue first to discuss what you would like to change.
-
-Special thanks to [Yanka](https://www.linkedin.com/in/yanka-darelova/) Who is creator of this [design](https://www.figma.com/community/file/1100794861710979147/portfolio-for-developers-concept-v-2). Her open sourcing this design was important motivation for me to open-source my code as well.
+Special thanks to [Yanka Darelova](https://www.linkedin.com/in/yanka-darelova/) who is creator of this [design](https://www.figma.com/community/file/1100794861710979147/portfolio-for-developers-concept-v-2). Her design was the core inspiration and basis for this portfolio. <br>
+Also a special thanks to [Prem Banker](https://github.com/prem-banker/pro-folio) because I used his code as a huge reference for this as well.
