@@ -1,0 +1,49 @@
+input[type="checkbox"] {
+  outline: 1px solid #ffffff;
+  background-color: transparent !important;
+  accent-color: transparent;
+}
+
+input:checked {
+  outline: 1px solid #ffffff;
+  background: transparent;
+  accent-color: #ffffff;
+}
+
+/* .projects-content {
+  overflow-y: auto;
+} */
+
+/* was facing issue with flex child taking its sibligns space so made this class1 */
+.maintain-size {
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.maintain-size-x {
+  overflow-x: hidden;
+}
+.maintain-size-y {
+  overflow-y: auto;
+}
+
+.custom-scrollbar {
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+  width: 10px;
+  border-left: 1px solid #1e2d3d;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #607b96;
+  border-radius: 5px;
+}
+
+.custom-label {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

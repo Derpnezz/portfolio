@@ -1,0 +1,36 @@
+.home-bg {
+  background-image: url("/home/bg-gradient.webp");
+  background-position: right 550px top -550px;
+
+  background-repeat: no-repeat;
+  /* background-size: 750px 740px; */
+  animation: gradient 15s ease infinite;
+  /* overflow: hidden; */
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 80% 50%;
+  }
+  25% {
+    background-position: 90% 100%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  75% {
+    background-position: 90% 0%;
+  }
+  100% {
+    background-position: 80% 50%;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}

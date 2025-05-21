@@ -1,0 +1,33 @@
+.cm-scroller {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+.cm-scroller::-webkit-scrollbar {
+  width: 6px;
+  border-left: 1px solid #1e2d3d;
+}
+
+.cm-scroller::-webkit-scrollbar-thumb {
+  background-color: #607b96;
+  border-radius: 3px;
+}
+
+.editor-font {
+  font-size: 16px; /* Default font size */
+
+  /* Medium screens (md) */
+  @media (min-width: 768px) {
+    font-size: 1em;
+  }
+
+  /* Large screens (lg) */
+  @media (min-width: 1024px) {
+    font-size: 1.2em;
+  }
+
+  /* Extra-large screens (2xl) */
+  @media (min-width: 1536px) {
+    font-size: 1.4em;
+  }
+}
