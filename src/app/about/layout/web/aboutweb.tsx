@@ -59,7 +59,7 @@ const AboutWeb: React.FC<{ children: React.ReactNode }> = ({ children }) => {
         </div>
 
         <div className="flex flex-1 h-full">
-          <div className="w-1/2 flex overflow-x-hidden justify-center items-center">{children}</div>
+          <div className="w-1/2 overflow-x-hidden justify-center items-center">{children}</div>
           <div
             className="w-1/2 h-full border-x border-line maintain-size"
             onClick={onClickAnywhere}
