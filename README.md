@@ -14,14 +14,14 @@ To set up the portfolio on your local machine, follow these simple steps:
 
 1. **Clone the Repository:**
 
-   ```bash
+   ```shell
    git clone https://github.com/Derpnezz/portfolio.git
    cd portfolio
    ```
 
 2) **Install deps:**
 
-   ```bash
+   ```shell
    npm install
    ```
 
@@ -30,27 +30,26 @@ To set up the portfolio on your local machine, follow these simple steps:
 - Create an account on EmailJS.
 - Create a new service and template following their [docs](https://www.emailjs.com/docs/tutorial/overview/).
 - Update the .env.local file with your EmailJS SERVICE_ID, TEMPLATE_ID, and PUBLIC_KEY
+  ```js
+  const SERVICE_ID = process.env.EMAILJS_SERVICE_ID;
+  const TEMPLATE_ID = process.env.EMAILJS_TEMPLATE_ID;
+  const PUBLIC_KEY = process.env.EMAILJS_PUBLIC_KEY;
+  ```
 
-4. **Customise your information**
+4. **Customize your information**
 
 - Update user.json with your personal details, including your name, bio, and social links.
 - Update meta.json with information about your tech stack.
+- Update layout.tsx with to change the meta information for your website
 
 5. **Run in local and make necessary changes**
-   ```bash
+   ```shell
    npm run dev
    ```
 
 ## Deployment
 
-To deploy, I used [Vercel](https://vercel.com). <br>
-Simply push your repository to GitHub, link your repo to Vercel, and the platform will handle the rest.
-
-## Future enhancements
-
-- Automation: Streamlining the setup process and reducing manual configurations.
-- Flexible Design: Providing more options for customization, including themes and layouts.
-- Additional Integrations: Potentially adding other third-party services for analytics, additional forms, or content management
+Simply push your repository to GitHub, link your repo to [Vercel](https://vercel.com), and the platform will handle the rest.
 
 ## Contributions
 
