@@ -2,52 +2,39 @@
   "user": {
     "name": "Gabriel Yee",
     "email": "gabyee.dev@gmail.com",
-    "resume_url": "https://gabyee.dev/resume/resume.pdf",
+    "resume_url": "https://gabyee.dev/resume.pdf",
     "logo_text": "derpnezz",
     "user_preferred_titles": [
       "Full Stack Dev",
       "Data Analyst",
-      "Generalist"
+      "Engineer",
+      "Tech Innovator",
+      "AI Enthusiast"
     ],
-    "bio": "ABOUT ME\n\nGabriel Yee, 15\nWashington DC, USA\n\nI am an individual who enjoys taking up challenges more mature than myself. My main background and projects are in Software Development and Data Analytics, which I had the pleasure of working on during my extracurriculars. I love working in teams because of the incredible insight that each individual contributes. Plus, it makes the work so much more enjoyable!\n\nWhen I’m not coding, you’ll find me playing chess (I played in the Maryland Scholastic 2025 Championship and the SuperNationals VII) or doomscrolling my life away.\n",
+    "bio": "ABOUT ME\n\nGabriel Yee, 15\nWashington DC, USA\n\nI am an aspiring software developer and data analyst, excited to take on challenges that push me beyond my comfort zone. With a passion for both software development and data analytics, I have honed my skills through various projects.\n\nOutside of coding, I am a dedicated cross-country, swimmer, and volleyball athlete, balancing my time between academics and extracurriculars. I also dabble in the art of chess. I have competed in prestigious tournaments such as the Maryland Scholastic 2025 Championship and the 2025 SUPERNATIONALS VIII.\n",
     "education": [
       {
-        "title": "Masters",
-        "school": "Virginia Tech",
-        "degree": "Masters in Computer Science",
-        "description": "Masters\nMasters in Computer Science, Virginia Tech\nWashington DC, USA\nAug 2023 - Present\n\nCoursework: Information Visualization, Artificial Intelligence, Modelling and Evaluation, Machine Learning, Web Tech, Cloud Computing, Software Engineering, ML in Big Data",
-        "place": "Wahsington DC"
-      },
-      {
-        "title": "Bachelors",
-        "school": "PDEU",
-        "degree": "BTech in Computer Science",
-        "description": "Bachelors\nBachelors in CS, PDEU\nAhmedabad, India\nJuly 2017 - May 2021\n\nCoursework: Web Development, Software Engineering, Information Security, Computer Networks, Database Management, Data Structures and Algorithms, Distributed Systems, Optimization Techniques, Machine Learning, Natural Language Processing, Data Warehousing and Data Mining",
-        "place": "Wahsington DC"
+        "title": "unknown",
+        "school": "--",
+        "degree": "--",
+        "description": "\nUpdating soon!\n",
+        "place": "--"
       }
     ],
     "work": [
       {
-        "title": "Full Stack Dev",
-        "company": "Quicko",
-        "start": "May 21",
-        "end": "Jun 23",
-        "description": "Quicko\nFull Stack Developer\nAhmedabad, India\nMay 2021 - June 2023\n\nTech Stack: Java SpringBoot, Node.js, Angular, Flutter, DynamoDb, Oracle SQL, AWS, GCP, Docker, Jenkins, Git\n\nLed development of India's top online tax advisory platform, automating scheduling, payments, and order lifecycle with Flutter, Node.js, and AWS, boosting revenue by 80%.\n\nOptimized scheduling using AWS CloudFront and EventBridge, cutting API response time from 4s to 200ms.\n\nDeveloped a PWA for income tax filing, integrated with major Indian brokerage apps, onboarding 500,000+ users in 2022.\n\nDeveloped Clique, Quicko’s affiliate app with Angular and Java SpringBoot, reaching 800,000 sign-ups through 100+ affiliates.\n\nStreamlined email marketing with Listmonk and AWS Lambda, analyzing AWS SES open events and saving $800 monthly by eliminating subscription fees.\n\nImplemented AWS Lambda middleware in Java and Node.js, reducing cold start time from 3-4s to <50ms.\n\nEstablished data retrieval patterns for DynamoDB, optimizing querying and pagination for better cost and access efficiency.",
-        "place": "Ahmedabad India"
-      },
-      {
-        "title": "Application Dev Intern",
-        "company": "Evosys",
-        "start": "Jan 21",
-        "end": "April 21",
-        "description": "Evosys\nApplication Development Intern\nAhmedabad, India\nJan 2021 - May 2021\n\nTech Stack: Javascript, PL-SQL, MySQL, Java, Oracle Cloud Infrastructure\n\nDeveloped Step-Function-like workflows using Oracle Integrations Cloud and PL-SQL procedures, establishing a data tunnel between Oracle Fusion Applications.\n\nImplemented an Oracle Integration Cloud Service (OICS) workflow to automate file transfer, processing, and delivery via SFTP, improving efficiency and reducing manual intervention.",
+        "title": "Replit Bounty Hunter",
+        "company": "Freelancer",
+        "start": "Apr 5, 2025",
+        "end": "--",
+        "description": "\nFreelancer through Replit Bounty Program\nFull Stack Developer\nRemote\nApr 2025 - Present\n\nTech Stack: Typescript, Javascript, Python, Flask, Bash, PostgreSQL, Java, AI\n\nWorked with numerous individuals in order to help their ideas become reality. Coded and programmed numerous web apps and worked to successfully bring people's ideas to life.\n\n",
         "place": "Ahmedabad India"
       }
     ],
     "projects": [
       {
         "name": "Portfolio",
-        "description": "A portfolio website for software developers. The code is open sourced, enabling anyone to make quick meta data changes and load up their own portfolio website.",
+        "description": "A portfolio website for software developers. The code is open sourced, enabling anyone to fork it and load up their own portfolio website.",
         "images": ["/projects/project_images/portfolioUP.png"],
         "techstack": [
           "react",
@@ -119,24 +106,14 @@
         "type": "Profile"
       },
       {
-        "name": "Twitter",
-        "link": "https://donate.gabyee.dev",
-        "type": "Profile"
-      },
-      {
-        "name": "Dev Post",
+        "name": "Devpost",
         "link": "https://devpost.com/derpnezz",
         "type": "Profile"
       },
       {
-        "name": "LinkedIn",
+        "name": "Discord",
         "link": "https://donate.gabyee.dev",
-        "type": "Profile"
-      },
-      {
-        "name": "Instagram",
-        "link": "https://donate.gabyee.dev",
-        "type": "Profile"
+        "type": "Contact"
       }
     ]
   }
