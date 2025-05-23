@@ -28,7 +28,7 @@ const Slideshow: React.FC<{ images?: string[] }> = ({ images = [] }) => {
   if (!images || images.length === 0) return null;
 
   return (
-    <div className="relative h-[250px] w-full">
+    <div className="relative h-[252.5px] w-full">
       {images.map((image, index) => (
         <img
           key={index}
