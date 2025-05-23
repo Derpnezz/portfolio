@@ -70,7 +70,7 @@ await emailjs
 
       <div className="text-secondaryLightBlue flex items-start h-full maintain-size">
         {/* Sidebar - Contact */}
-        <div className="w-[220px] border-r border-line h-full flex-col">
+        <div className="w-[270px] border-r border-line h-full flex-col">
           <div className="flex items-center mt-4 px-[22px]">
             <a
               href={`mailto:${user.email}`}

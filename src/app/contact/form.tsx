@@ -20,9 +20,9 @@ const FormComponent: React.FC<FormComponentProps> = ({ setFormData }) => {
     formState: { errors }, // Add errors from formState
   } = useForm<FormData>();
 
-  const SERVICE_ID = process.env.NEXT_PUBLIC_SERVICE_ID;
-  const TEMPLATE_ID = process.env.NEXT_PUBLIC_TEMPLATE_ID;
-  const PUBLIC_KEY = process.env.NEXT_PUBLIC_PUBLIC_KEY;
+  const SERVICE_ID = process.env.EMAILJS_SERVICE_ID;
+  const TEMPLATE_ID = process.env.EMAILJS_TEMPLATE_ID;
+  const PUBLIC_KEY = process.env.EMAILJS_PUBLIC_KEY;
 
   const [submitted, setSubmitted] = useState(false); // State to track form submission
   const [loading, setLoading] = useState(false); // State to track loading state
@@ -63,7 +63,7 @@ const FormComponent: React.FC<FormComponentProps> = ({ setFormData }) => {
           id="contact-form"
         >
           <div>
-            <label className="text-labels lg:text-lg xl:text-xl">_name:</label>
+            <label className="text-labels lg:text-lg xl:text-xl">name:</label>
             <input
               type="text"
               placeholder="your name"
@@ -76,7 +76,7 @@ const FormComponent: React.FC<FormComponentProps> = ({ setFormData }) => {
           </div>
 
           <div>
-            <label className="text-labels lg:text-lg xl:text-xl">_email:</label>
+            <label className="text-labels lg:text-lg xl:text-xl">email:</label>
             <input
               type="email"
               placeholder="your email"
@@ -95,12 +95,12 @@ const FormComponent: React.FC<FormComponentProps> = ({ setFormData }) => {
 
           <div>
             <label className="text-labels lg:text-lg xl:text-xl">
-              _message:
+              message:
             </label>
             <textarea
               {...register("message", { required: true })}
               placeholder="your message"
-              className="placeholder-gray-500 mt-1 w-full px-3 py-2 border border-line rounded-md focus:outline-secondaryBrightPurple focus:ring-primary focus:border-primary sm:text-sm bg-transparent lg:text-lg xl:text-xl"
+              className="placeholder-gray-500 mt-1 w-full px-3 py-6 border border-line rounded-md focus:outline-secondaryBrightPurple focus:ring-primary focus:border-primary sm:text-sm bg-transparent lg:text-lg xl:text-xl"
             />
             {errors.message && (
               <p className="text-red-500 text-sm pl-2">Message is required</p>

@@ -1,4 +1,6 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaDiscord } from "react-icons/fa";
+import { SiDevpost } from "react-icons/si";
+{/* https://react-icons.github.io/react-icons/ */}
 import userdata from "../../../../public/data/user.json";
 
 const Footer: React.FC = () => {
@@ -9,9 +11,10 @@ const Footer: React.FC = () => {
     socials.find((social) => social.name.toLowerCase() === name.toLowerCase())
       ?.link;
 
-  const devpostLink = findSocialLink("dev post");
+  const devpostLink = findSocialLink("devpost");
   const linkedinLink = findSocialLink("linkedin");
   const githubLink = findSocialLink("github");
+  const discordLink = findSocialLink("discord");
   const githubUsername = githubLink.split(".com/")[1];
 
   return (
@@ -38,19 +41,22 @@ const Footer: React.FC = () => {
           <div className="border-r border-line flex-vertical-center">
             <a href={devpostLink} target="_blank" className="group h-full">
               <div className="h-full border-r border-line flex-vertical-center px-[14px] group-hover:bg-gray-700 transition-all duration-300 cursor-pointer">
-                <img
-                  src="/icons/devpost.svg"
-                  alt="Devpost"
-                  className="text-secondaryLightBlue group-hover:hidden transition-colors duration-300"
-                  width={20}
-                  height={20}
+                <SiDevpost
+                  className="text-secondaryLightBlue group-hover:text-secondaryFluorescentGreen transition-colors duration-300"
+                  size={20}
                 />
-                <img
-                  src="/icons/devpostactive.svg"
-                  alt="Devpost Active"
-                  className="hidden group-hover:inline-block transition-colors duration-300"
-                  width={20}
-                  height={20}
+              </div>
+            </a>
+          </div>
+        )}
+
+        {discordLink && (
+          <div className="border-r border-line flex-vertical-center">
+            <a href={discordLink} target="_blank" className="group h-full">
+              <div className="h-full border-r border-line flex-vertical-center px-[14px] group-hover:bg-gray-700 transition-all duration-300 cursor-pointer">
+                <FaDiscord
+                  className="text-secondaryLightBlue group-hover:text-secondaryFluorescentGreen transition-colors duration-300"
+                  size={20}
                 />
               </div>
             </a>

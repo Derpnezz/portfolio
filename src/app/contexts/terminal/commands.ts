@@ -63,6 +63,19 @@ export const github = async (args: string[]): Promise<string> => {
   }
 };
 
+export const git = async (args: string[]): Promise<string> => {
+  const githubLink = userdata.user.socials.find(
+    (social) => social.name.toLowerCase() === "github"
+  )?.link;
+
+  if (githubLink) {
+    window.open(githubLink);
+    return "Opening github...";
+  } else {
+    return "My GitHub is not available";
+  }
+};
+
 export const linkedin = async (args: string[]): Promise<string> => {
   const linkedin = userdata.user.socials.find(
     (social) => social.name.toLowerCase() === "linkedin"
@@ -72,7 +85,7 @@ export const linkedin = async (args: string[]): Promise<string> => {
     window.open(linkedin);
     return "Opening linkedin...";
   } else {
-    return "user' linkedin is not available";
+    return "My LinkedIn is unavailable at this time";
   }
 };
 
@@ -111,13 +124,13 @@ export const ls = async (args?: string[]): Promise<string> => {
     (exp) => (output += "├─ " + exp.company.toLowerCase() + "\n")
   );
 
-  output += "\nType `cat [entity_name]` to know more ";
+  output += "\nType `cat [file_name]` to know more ";
   return output;
 };
 
 export const cat = async (args?: string[]): Promise<string> => {
   if (!args || args.length === 0) {
-    return "Please specify an entity name.";
+    return "Please specify a file name.";
   }
 
   const entityName = args[0].toLowerCase();
@@ -138,7 +151,7 @@ export const cat = async (args?: string[]): Promise<string> => {
     return work.description;
   }
 
-  return "Entity not found. Please check the name and try again.";
+  return "File not found. Please check the name and try again.";
 };
 
 export const easteregg = async (executions: Execution[]): Promise<string> => {

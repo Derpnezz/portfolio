@@ -36,7 +36,7 @@ const Slideshow: React.FC<{ images?: string[] }> = ({ images = [] }) => {
           src={image}
           alt={`Project Image ${index + 1}`}
           style={{ width: '100%', height: '100%' }}
-          className={`absolute top-0 left-0 object-cover rounded-t-md transition-opacity duration-500 ${
+          className={`absolute top-0 left-0 w-full h-full object-contain rounded-t-md transition-opacity duration-500 ${
             currentIndex === index ? "opacity-100" : "opacity-0"
           }`}
         />

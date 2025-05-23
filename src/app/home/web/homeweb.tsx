@@ -9,7 +9,7 @@ export default function HomeWeb() {
       <div className="mx-auto flex flex-row items-center justify-center text-white w-full max-w-[1080px] px-4 lg:px-0">
         <div className="w-1/2 p-8 ">
           <p className="md:text-code lg:text-body 2xl:text-[1.5em]">
-            Hi all. I am
+            Hey there! I'm
           </p>
           <h1 className="md:text-[48px] lg:text-headline 2xl:text-[4em] font-regular leading-shrink">
             {userdata.user.name}

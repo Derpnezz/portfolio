@@ -34,7 +34,7 @@ const Slideshow: React.FC<{ images?: string[] }> = ({ images = [] }) => {
           key={index}
           src={image}
           alt={`Project Image ${index + 1}`}
-          className={`absolute top-0 left-0 w-full h-full object-cover rounded-t-md transition-opacity duration-500 ${
+          className={`absolute top-0 left-0 w-full h-full object-contain rounded-t-md transition-opacity duration-500 ${
             currentIndex === index ? "opacity-100" : "opacity-0"
           }`}
         />
@@ -91,6 +91,9 @@ export default function ProjectsWeb() {
                 </div>
                 <div className="relative border border-line shadow-md bg-primaryDeepNavyBlue rounded-lg overflow-hidden">
                   <Slideshow images={project.images} />
+                  {
+                    //document.body.style.overflow = 'hidden';
+                  }
                   <div className="text-labels p-4 text-secondaryLightBlue">
                     {project.description}
                   </div>
