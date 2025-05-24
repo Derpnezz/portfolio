@@ -29,11 +29,11 @@ To set up the portfolio on your local machine, follow these simple steps:
 
 - Create an account on EmailJS.
 - Create a new service and template following their [docs](https://www.emailjs.com/docs/tutorial/overview/).
-- Update the .env.local file with your EmailJS SERVICE_ID, TEMPLATE_ID, and PUBLIC_KEY
+- Update the `src/app/contact/form.tsx` file with your EmailJS SERVICE_ID, TEMPLATE_ID, and PUBLIC_KEY. Access the API keys through the [Email Services](https://dashboard.emailjs.com/admin), [Email Templates](https://dashboard.emailjs.com/admin/templates), and [Account](https://dashboard.emailjs.com/admin/account) tab on EmailJS.
   ```js
-  const SERVICE_ID = process.env.EMAILJS_SERVICE_ID;
-  const TEMPLATE_ID = process.env.EMAILJS_TEMPLATE_ID;
-  const PUBLIC_KEY = process.env.EMAILJS_PUBLIC_KEY;
+  const PUBLIC_KEY = "";
+  const SERVICE_ID = "";
+  const TEMPLATE_ID = "";
   ```
 
 4. **Customize your information**
