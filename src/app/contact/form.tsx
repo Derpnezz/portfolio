@@ -20,9 +20,10 @@ const FormComponent: React.FC<FormComponentProps> = ({ setFormData }) => {
     formState: { errors }, // Add errors from formState
   } = useForm<FormData>();
 
-  const SERVICE_ID = process.env.EMAILJS_SERVICE_ID;
-  const TEMPLATE_ID = process.env.EMAILJS_TEMPLATE_ID;
-  const PUBLIC_KEY = process.env.EMAILJS_PUBLIC_KEY;
+  const PUBLIC_KEY = "A2UN5UBlcGeTNODnu";
+  const SERVICE_ID = "service_3njf6s3";
+  const TEMPLATE_ID = "template_5wtg1he";
+  emailjs.init(PUBLIC_KEY);
 
   const [submitted, setSubmitted] = useState(false); // State to track form submission
   const [loading, setLoading] = useState(false); // State to track loading state
@@ -39,19 +40,18 @@ const FormComponent: React.FC<FormComponentProps> = ({ setFormData }) => {
     setLoading(true); // Set loading state to true
 
     await emailjs
-      .sendForm(SERVICE_ID, TEMPLATE_ID, "#contact-form", PUBLIC_KEY)
+      .sendForm(SERVICE_ID, TEMPLATE_ID, "#contact-form")
       .then(
-        (result) => {
+        (response) => {
           setSubmitted(true);
-          setLoading(false); // Set loading state to false
         },
         (error) => {
           console.log(error);
           alert("Something went wrong!");
-          setLoading(false); // Set loading state to false
         }
       );
-  };
+      setLoading(false);
+    };
 
   return (
     <div className="w-[90%] flex-col flex h-full justify-center items-center">
@@ -100,7 +100,7 @@ const FormComponent: React.FC<FormComponentProps> = ({ setFormData }) => {
             <textarea
               {...register("message", { required: true })}
               placeholder="your message"
-              className="placeholder-gray-500 mt-1 w-full px-3 py-6 border border-line rounded-md focus:outline-secondaryBrightPurple focus:ring-primary focus:border-primary sm:text-sm bg-transparent lg:text-lg xl:text-xl"
+              className="placeholder-gray-500 mt-1 w-full px-3 py-2 border border-line rounded-md focus:outline-secondaryBrightPurple focus:ring-primary focus:border-primary sm:text-sm bg-transparent lg:text-lg xl:text-xl"
             />
             {errors.message && (
               <p className="text-red-500 text-sm pl-2">Message is required</p>
@@ -120,14 +120,14 @@ const FormComponent: React.FC<FormComponentProps> = ({ setFormData }) => {
       ) : (
         <div className="text-center">
           <p className="text-xl font-bold lg:text-2xl">
-            Thank you 🤘 I have received your email.
+            Thank you!
           </p>
           <p className="text-lg lg:text-lg xl:text-xl">
             I shall respond to you shortly.
           </p>
           <button
             className="mt-4 px-4 py-2 bg-buttonbackground text-white rounded-md lg:text-lg xl:text-xl"
-            onClick={resetForm}
+            onClick={() => location.reload()}
           >
             submit-new-message
           </button>

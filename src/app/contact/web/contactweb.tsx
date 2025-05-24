@@ -33,24 +33,25 @@ export default function ContactWeb() {
   // const codesnippet = `I joined Virginia Tech in the Fall of 23, Throughout the semester, I have taken numerous courses including but not limited to Modelling and Evaluation, Information Visualization, Artificial Intelligence, Machine Learning 1, Web Development`;
   const codesnippet = `// sneak peek into how the code for this form works 
 const form = {
-  name: ${formData.name ?? ""},
-  email: ${formData.email ?? ""},
-  message: ${formData.message ?? ""}
+  name: "${formData.name ?? ""}",
+  email: "${formData.email ?? ""}",
+  message: "${formData.message ?? ""}"
 };
+
+emailjs.init(PUBLIC_KEY);
 await emailjs
-  .sendForm(SERVICE_ID, TEMPLATE_ID, form, PUBLIC_KEY)
+  .sendForm(SERVICE_ID, TEMPLATE_ID, "#contact-form")
   .then(
-    (result) => {
+    (response) => {
       setSubmitted(true);
-      setLoading(false); // Set loading state to false
     },
     (error) => {
       console.log(error);
       alert("Something went wrong!");
-      setLoading(false); // Set loading state to false
     }
   );
-})`;
+  setLoading(false);
+};`;
 
   //code mirror
   // forms

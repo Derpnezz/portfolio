@@ -43,15 +43,6 @@ export default function ContactMobile() {
         {/* Social Links */}
         <div className="flex flex-col space-y-2 mt-8">
           <div className="font-semibold text-white">Find me also on:</div>
-          <a
-            href={`mailto:${user.email}`}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-secondaryLightBlue hover:text-white flex items-center"
-          >
-            <FaEnvelope />
-            <span className="ml-2">{user.email}</span>
-          </a>
           {socials.map((social, index) => (
             <a
               key={index + 1}
