@@ -97,6 +97,7 @@ const HeaderMobile: React.FC = () => {
             </Link>
           </div>
 
+          {/*
           <div className="h-[56px] border-t border-line rounded-sm flex items-center">
             <div className="border-r border-line flex items-center pl-4 h-full flex-grow text-[0.8em]">
               find me on:
@@ -146,7 +147,8 @@ const HeaderMobile: React.FC = () => {
                 </div>
               )}
             </div>
-          </div>
+          </div> 
+          */}
         </div>
       </Drawer>
     </header>

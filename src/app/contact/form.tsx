@@ -1,3 +1,4 @@
+
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import emailjs from "@emailjs/browser";
@@ -17,7 +18,7 @@ const FormComponent: React.FC<FormComponentProps> = ({ setFormData }) => {
     register,
     handleSubmit,
     watch,
-    formState: { errors }, // Add errors from formState
+    formState: { errors },
   } = useForm<FormData>();
 
   const PUBLIC_KEY = "A2UN5UBlcGeTNODnu";
@@ -25,33 +26,30 @@ const FormComponent: React.FC<FormComponentProps> = ({ setFormData }) => {
   const TEMPLATE_ID = "template_5wtg1he";
   emailjs.init(PUBLIC_KEY);
 
-  const [submitted, setSubmitted] = useState(false); // State to track form submission
-  const [loading, setLoading] = useState(false); // State to track loading state
+  const [submitted, setSubmitted] = useState(false);
+  const [loading, setLoading] = useState(false);
 
-  // Watch all form values
   const formValues = watch();
 
   const resetForm = () => {
-    setSubmitted(false); // Reset submitted state to false
+    setSubmitted(false);
   };
 
   const onSubmit = async (data: FormData) => {
     setFormData(data);
-    setLoading(true); // Set loading state to true
+    setLoading(true);
 
-    await emailjs
-      .sendForm(SERVICE_ID, TEMPLATE_ID, "#contact-form")
-      .then(
-        (response) => {
-          setSubmitted(true);
-        },
-        (error) => {
-          console.log(error);
-          alert("Something went wrong!");
-        }
-      );
+    try {
+      await emailjs.sendForm(SERVICE_ID, TEMPLATE_ID, "#contact-form");
+      setSubmitted(true);
+    } catch (error) {
+      console.log(error);
+      alert("Something went wrong!");
+    } finally {
       setLoading(false);
-    };
+      console.log("#contact-form");
+    }
+  };
 
   return (
     <div className="w-[90%] flex-col flex h-full justify-center items-center">

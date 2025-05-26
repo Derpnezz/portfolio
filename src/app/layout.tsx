@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://gabyee.dev/images/og-image.png",
+        url: "https://gabyee.dev/projects/project_images/portfolioUP.png",
         width: 800,
         height: 600,
         alt: "Pro-folio Preview",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Gab Yee",
     description: "Gab Yee's Developer Portfolio",
-    images: ["https://gabyee.dev/images/og-image.png"],
+    images: ["https://gabyee.dev/projects/project_images/portfolioUP.png"],
   },
 };
 export default function RootLayout({
@@ -61,7 +61,7 @@ export default function RootLayout({
         <meta property="og:type" content="website" />
         <meta
           property="og:image"
-          content="https://gabyee.dev/images/og-image.png"
+          content="https://gabyee.dev/projects/project_images/portfolioUP.png"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Pro-folio" />
@@ -71,7 +71,7 @@ export default function RootLayout({
         />
         <meta
           name="twitter:image"
-          content="https://gabyee.dev/images/og-image.png"
+          content="https://gabyee.dev/projects/project_images/portfolioUP.png"
         />
         <link rel="canonical" href="https://gabyee.dev" />
         <link rel="icon" href="/icon.svg" />
