@@ -11,7 +11,7 @@
       "Tech Innovator",
       "AI Enthusiast"
     ],
-    "bio": "ABOUT ME\n\nGabriel Yee, 15\nWashington DC, USA\n\nI am an aspiring software developer and data analyst, excited to take on challenges that push me beyond my comfort zone. With a passion for both software development and data analytics, I have honed my skills through various projects.\n\nOutside of coding, I am a dedicated cross-country, swimmer, and volleyball athlete, balancing my time between academics and extracurriculars. I also dabble in the art of chess. I have competed in prestigious tournaments such as the Maryland Scholastic 2025 Championship and the 2025 SUPERNATIONALS VIII.\n",
+    "bio": "ABOUT ME\n\nGabriel Yee, 15\nWashington DC, USA\n\nI am an aspiring software developer and data analyst, excited to take on challenges that push me beyond my comfort zone.\nI've taken on various interests and hobbies, most of which have led me to project ideas and futuring my programming skills\n",
     "education": [
       {
         "title": "unknown",
@@ -28,7 +28,21 @@
         "start": "Apr 5, 2025",
         "end": "--",
         "description": "\nFreelancer through Replit Bounty Program\nFull Stack Developer\nRemote\nApr 2025 - Present\n\nTech Stack: Typescript, Javascript, Python, Flask, Bash, PostgreSQL, Java, AI\n\nWorked with numerous individuals in order to help their ideas become reality. Coded and programmed numerous web apps and worked to successfully bring people's ideas to life.\n\n",
-        "place": "Ahmedabad India"
+        "place": "--"
+      }
+    ],
+    "hobbies": [
+      {
+        "title": "chess",
+        "description": "\nEver since I've been in elementary school, I've been captivated by chess. Until high school, I never fully dedicated myself to it.\n\nSince then, I've achieved a 1200 Rapid rating and 1000 Blitz rating on Chess.com and a USCF rating of 886.\n\nTournaments of note that I have competed in include:\n- Maryland Scholastic Championship 2025\n- SUPERNATIONALS VIII\n"
+      },
+      {
+        "title": "robotics",
+        "description": "\nI joined my high school's robotics team (Jagbots4638) in my freshman year and since then, I've been a huge contributing member to the team, even making a scouter app (found in the projects page!)\n\nThroughout my time in the team, we've achieved the following awards:\n- Reefscape District Event Finalist\n- Excellence in Engineering Award (2025)\n"
+      },
+      {
+        "title": "nonprofit",
+        "description": "\nAlongside 6 others, I helped to found SparkArts.\n\nThis 501(c)(3) nonprofit organization is dedicated to bridging the art divide between chilren in elementary school.\n"
       }
     ],
     "projects": [
@@ -55,7 +69,7 @@
           "javascript",
           "ai"
         ],
-        "github": "https://github.com/Derpnezz/pro-folio",
+        "github": "",
         "url": "https://img2pgn.gabyee.dev"
       },
       {
