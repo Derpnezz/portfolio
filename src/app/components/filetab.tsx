@@ -24,7 +24,6 @@ const CustomTab: React.FC<FileTabProps> = ({ text, onTap, onClose }) => {
       <button
         onClick={(e) => {
           e.stopPropagation();
-          // TODO : DO SOMETHING ABOUT THIS COMPLEX LOGIC
 
           if (isOpen) {
             if (openedFiles.length === 1) {

@@ -28,10 +28,22 @@ const AboutMobile: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     },
   }));
 
+  const hobbyFiles = userdata.user.hobbies.map((hobby, index) => ({
+    text: hobby.title,
+    onTap: () => {
+      openFile(`/about/hobbies/${hobby.title}`);
+      router.push(`/about/hobbies/${hobby.title}`);
+    },
+  }));
+
   return (
     <div className="flex flex-col h-full text-secondaryLightBlue pt-2">
-      <Folder color="#FEA55F" name="education" files={educationFiles} />
+      {/* 
+        <Folder color="#FEA55F" name="education" files={educationFiles} />
       <Folder color="#43D9AD" name="work" files={workFiles} />
+      <Folder color="#991dd0" name="hobbies" files={hobbyFiles} />
+      */}
+      
       <div className="mt-2 border-t border-line flex-grow">{children}</div>
     </div>
   );

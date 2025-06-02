@@ -23,22 +23,39 @@ export default function HomeWeb() {
           </div>
           */}
           <div className="text-secondaryLightBlue font-labels">
-            &#47;&#47; You can see the code for this site here
+            &#47;&#47; Want to support me through a donation?
           </div>
 
-          <div className="font-labels">
+          {/*
+          <div className="font-labels mb-2">
             {" "}
             <span className="text-secondaryBrightPurple">const</span>{" "}
             <span className="text-accentBrightGreen"> codeLink</span> ={" "}
             <a
-              href="https://github.com/derpnezz"
+              href="https://github.com/Derpnezz/portfolio"
               className="text-accentOrange hover:underline"
               target="_blank"
               rel="noopener noreferrer"
             >
-              https://github.com/derpnezz
+              github.com/Derpnezz/portfolio
             </a>
           </div>
+          */}
+
+          <div className="font-labels">
+            {" "}
+            <span className="text-secondaryBrightPurple">const</span>{" "}
+            <span className="text-accentBrightGreen"> supportMe</span> ={" "}
+            <a
+              href="https://donate.gabyee.dev"
+              className="text-accentOrange hover:underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              https://donate.gabyee.dev
+            </a>
+          </div>
+          
         </div>
 
         <div className="w-1/2 min-h-[400px] bg-contain bg-no-repeat bg-center relative overflow-hidden">

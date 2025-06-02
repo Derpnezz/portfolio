@@ -9,17 +9,17 @@ import "./globals.css";
 const firacode = Fira_Code({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Gab Yee",
-  description: "Gab Yee's Developer Portfolio",
-  keywords: "Portfolio, Developer, Software Engineer, Full Stack, Gab, Gab Yee, GabYee, Yee",
+  title: "Gabriel Yee | Portfolio",
+  description: "",
+  keywords: "Portfolio, Developer, Software Engineer, Full Stack, Gab, Gab Yee, GabYee, Yee, Gabriel, GabrielYee, Gabriel Yee",
   authors: {
-    name: "Gab Yee",
+    name: "Gabriel Yee",
     url: "https://gabyee.dev",
   },
 
   openGraph: {
-    title: "Gab Yee",
-    description: "Gab Yee's Developer Portfolio",
+    title: "Gabriel Yee's Developer Portfolio",
+    description: "",
     url: "https://gabyee.dev",
     type: "website",
     images: [
@@ -27,14 +27,14 @@ export const metadata: Metadata = {
         url: "https://gabyee.dev/projects/project_images/portfolioUP.png",
         width: 800,
         height: 600,
-        alt: "Pro-folio Preview",
+        alt: "Portfolio Preview",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Gab Yee",
-    description: "Gab Yee's Developer Portfolio",
+    title: "Gabriel Yee's Developer Portfolio",
+    description: "",
     images: ["https://gabyee.dev/projects/project_images/portfolioUP.png"],
   },
 };
@@ -49,13 +49,13 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta
           name="keywords"
-          content="Portfolio, Developer, Software Engineer, Full Stack, Gab, Gab Yee, GabYee, Yee"
+          content="Portfolio, Developer, Software Engineer, Full Stack, Gab, Gab Yee, GabYee, Yee, Gabriel, GabrielYee, Gabriel Yee"
         />
-        <meta name="author" content="Gab Yee" />
-        <meta property="og:title" content="Gab Yee" />
+        <meta name="author" content="Gabriel Yee" />
+        <meta property="og:title" content="Gabriel Yee's Developer Portfolio" />
         <meta
           property="og:description"
-          content="Gab Yee's Developer Portfolio"
+          content=""
         />
         <meta property="og:url" content="https://gabyee.dev" />
         <meta property="og:type" content="website" />
@@ -67,7 +67,7 @@ export default function RootLayout({
         <meta name="twitter:title" content="Pro-folio" />
         <meta
           name="twitter:description"
-          content="Gab Yee's Developer Portfolio"
+          content="Gabriel Yee's Developer Portfolio"
         />
         <meta
           name="twitter:image"

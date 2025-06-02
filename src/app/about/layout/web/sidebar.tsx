@@ -28,13 +28,29 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen }) => {
     },
   }));
 
+  const hobbyFiles = userdata.user.hobbies.map((hobby, index) => ({
+    text: hobby.title,
+    onTap: () => {
+      openFile(`/about/hobbies/${hobby.title}`);
+      router.push(`/about/hobbies/${hobby.title}`);
+    },
+  }))
+
   if (!isOpen) return null; // Optionally hide the sidebar based on isOpen
 
   return (
     <div className="h-full">
       <div className="pt-2"></div>
-      <Folder color="#FEA55F" name="education" files={educationFiles} />
-      <Folder color="#43D9AD" name="work" files={workFiles} />
+      { // DON'T FORGET TO ADD THESE BACK WHEN NEEDED
+      }
+      {//<Folder color="#FEA55F" name="education" files={educationFiles} />
+      }
+      {//<Folder color="#43D9AD" name="work" files={workFiles} />
+      }
+      {
+      //<Folder color="#991dd0" name="hobbies" files={hobbyFiles} />
+        }
+      
     </div>
   );
 };
