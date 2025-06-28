@@ -51,11 +51,8 @@
         "description": "A program dedicated to allowing streamers to play chess against their collective viewers.",
         "images": ["/projects/project_images/collective-chess.png"],
         "techstack": [
-          "vite",
-          "tailwind",
-          "html",
-          "css",
-          "api"
+          "typescript",
+          "tailwind"
         ],
         "github": "",
         "url": "https://collective-chess.gabyee.dev"
