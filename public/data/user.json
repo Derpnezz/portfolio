@@ -47,6 +47,20 @@
     ],
     "projects": [
       {
+        "name": "Collective Chess",
+        "description": "A program dedicated to allowing streamers to play chess against their collective viewers.",
+        "images": ["/projects/project_images/collective-chess.png"],
+        "techstack": [
+          "vite",
+          "tailwind",
+          "html",
+          "css",
+          "api"
+        ],
+        "github": "",
+        "url": "https://collective-chess.gabyee.dev"
+      },
+      {
         "name": "Portfolio",
         "description": "A portfolio website for software developers. The code is open sourced, enabling anyone to fork it and load up their own portfolio website.",
         "images": ["/projects/project_images/portfolioUP.png"],
