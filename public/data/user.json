@@ -48,7 +48,7 @@
     "projects": [
       {
         "name": "Collective Chess",
-        "description": "A program dedicated to allowing streamers to play chess against their collective viewers.",
+        "description": "Collective Chess is a real-time chess application that enables streamers to play chess with their audience through collective voting.",
         "images": ["/projects/project_images/collective-chess.png"],
         "techstack": [
           "typescript",
