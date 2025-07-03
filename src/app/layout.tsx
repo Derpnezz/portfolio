@@ -75,6 +75,7 @@ export default function RootLayout({
         />
         <link rel="canonical" href="https://gabyee.dev" />
         <link rel="icon" href="/icon.svg" />
+        <meta name="google-adsense-account" content="ca-pub-5860489283499681">
       </head>
 
       {/* handling different componets for mobile and web/ */}
