@@ -47,7 +47,7 @@ export default function HomeWeb() {
             <span className="text-secondaryBrightPurple">const</span>{" "}
             <span className="text-accentBrightGreen"> supportMe</span> ={" "}
             <a
-              href="https://donate.gabyee.dev"
+              href="https://pay.gabyee.dev/donate"
               className="text-accentOrange hover:underline"
               target="_blank"
               rel="noopener noreferrer"
