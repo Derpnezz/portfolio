@@ -58,6 +58,16 @@
         "url": "https://collective-chess.gabyee.dev"
       },
       {
+        "name": "Geyser - FRC Robot",
+        "description": "An FRC Robot created for the 2025 Reefscape season with JagBots 4638. The robot, named Geyser, focused solely on scoring coral on all levels of the reef.",
+        "images": ["/projects/project_images/frc-geyser.png"],
+        "techstack": [
+          "java"
+        ],
+        "github": "https://github.com/nwhsrobotics/FRC_Reefscape",
+        "url": "https://www.youtube.com/watch?v=ItAWazip0Bk"
+      },
+      {
         "name": "Portfolio",
         "description": "A portfolio website for software developers. The code is open sourced, enabling anyone to fork it and load up their own portfolio website.",
         "images": ["/projects/project_images/portfolioUP.png"],
