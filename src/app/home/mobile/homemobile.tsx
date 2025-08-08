@@ -16,7 +16,7 @@ export default function HomeMobile() {
         </h4>
 
         <div className="text-secondaryLightBlue font-labels">
-          &#47;&#47; Want to support me through a donation?
+          &#47;&#47; Want to hire me for a project?
         </div>
         {/*
         <div className="font-labels mb-2">
@@ -35,14 +35,14 @@ export default function HomeMobile() {
         <div className="font-labels">
           {" "}
           <span className="text-secondaryBrightPurple">const</span>{" "}
-          <span className="text-accentBrightGreen"> supportMe</span> ={" "}
+          <span className="text-accentBrightGreen"> link</span> ={" "}
           <a
-            href="https://pay.gabyee.dev/donate"
+            href="https://contra.com/derpnezz"
             className="text-accentOrange underline"
             target="_blank"
             rel="noopener noreferrer"
           >
-            https://donate.gabyee.dev
+            https://contra.com/derpnezz
           </a>
         </div>
       </div>
