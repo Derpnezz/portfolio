@@ -11,7 +11,7 @@
       "Tech Innovator",
       "AI Enthusiast"
     ],
-    "bio": "ABOUT ME\n\nGabriel Yee, 15\nWashington DC, USA\n\nI am an aspiring software developer and data analyst, excited to take on challenges that push me beyond my comfort zone.\nI've taken on various interests and hobbies, most of which have led me to project ideas and futuring my programming skills\n",
+    "bio": "ABOUT ME\n\nGabriel Yee, 15\nWashington DC, USA\n\nI am an aspiring software developer and data analyst, excited to take on challenges that push me beyond my comfort zone.\nI've taken on various interests and hobbies, most of which have led me to project ideas, improving my programming skills\n",
     "education": [
       {
         "title": "unknown",
@@ -48,14 +48,14 @@
     "projects": [
       {
         "name": "Collective Chess",
-        "description": "Collective Chess is a real-time chess application that enables streamers to play chess with their audience through collective voting.",
+        "description": "Made for twitch streamer thatsjustchips, Collective Chess is a real-time chess application that enables streamers to play chess with their audience.",
         "images": ["/projects/project_images/collective-chess.png"],
         "techstack": [
           "typescript",
           "tailwind"
         ],
         "github": "",
-        "url": "https://collective-chess.gabyee.dev"
+        "url": "https://testchess-p4fi.onrender.com/"
       },
       {
         "name": "Geyser - FRC Robot",
